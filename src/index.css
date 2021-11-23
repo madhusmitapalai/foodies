@@ -1,13 +1,350 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Nunito:wght@200;300;400;700;800;900&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Satisfy&family=Yuji+Mai&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.buttons {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  background: #c45b5b;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 700;
+  margin: 0 0rem;
 }
+
+.buttons:hover {
+  background: #fff;
+  color: #c45b5b;
+  border: 3px solid #c45b5b;
+}
+
+.col-first {
+  display: block;
+}
+
+.nav-items .nav-links {
+  margin: 0 0.5rem;
+  color: #000 !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav-items .nav-links .nav-links:hover {
+  color: #c45b5b !important;
+}
+
+.brand-img {
+  height: 100%;
+  width: 100%;
+}
+
+/*header*/
+.main-header {
+  background: url(./images/bg-1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.header-contex {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.header-contex h1 {
+  font-weight: 700;
+  word-spacing: .1rem;
+}
+
+.header-contex p {
+  margin-top: 2rem;
+  word-spacing: .1rem;
+}
+
+.header-contex button {
+  margin-top: 1rem;
+}
+
+.header-contex button i {
+  margin: 0 0.4rem;
+}
+
+/*about us*/
+.about {
+  text-transform: capitalize;
+}
+
+.about .about-heading {
+  color: #c45b5b;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.about .about-img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .about-context {
+  padding: 0.8rem;
+}
+
+.about .about-context h1 {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.about .about-context p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  letter-spacing: .04rem;
+}
+
+.about .about-context button {
+  margin-top: 0.5rem;
+}
+
+.about-second-section .about-second-context {
+  margin-top: 4rem;
+  padding: 0.8rem 0;
+}
+
+.about-second-section .about-second-context h1 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+
+.about-second-section .about-second-context p {
+  padding-top: 1.3rem;
+  font-size: 0.9rem;
+  letter-spacing: .04rem;
+  line-height: 1.6rem;
+}
+
+.about-second-section .about-second-context ul li {
+  list-style-type: none;
+  letter-spacing: .02rem;
+  padding-top: .4rem;
+}
+
+.about-second-section .about-second-context ul li i {
+  color: #c45b5b;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.about-second-section img {
+  width: 100%;
+  height: 100%;
+}
+
+/*explore*/
+.explore {
+  width: 100%;
+  height: 100%;
+  background: url(./images/bg-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  background-size: cover;
+}
+
+.explore .explore-context {
+  padding: 1.5rem;
+}
+
+.explore .explore-context h1 {
+  color: #c45b5b;
+  font-weight: 600;
+  letter-spacing: .08rem;
+  padding: 0.5rem;
+}
+
+.explore .explore-context p {
+  padding-top: 1.3rem;
+  letter-spacing: .06rem;
+  line-height: 1.6rem;
+}
+
+/*explore our foods*/
+.explore-our-foods {
+  text-transform: capitalize;
+}
+
+.explore-our-foods .card-section-header h1 {
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.explore-our-foods .card-section-header p {
+  line-height: 1.2rem;
+}
+
+.explore-our-foods .card-section {
+  padding: 3rem;
+}
+
+.explore-our-foods .card-section .cards {
+  border: none;
+}
+
+.explore-our-foods .card-section .cards Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.explore-our-foods .card-section .cards h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.explore-our-foods .card-section .cards p {
+  font-size: 0.9rem;
+}
+
+.explore-our-foods .card-section .cards h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/*rquetions*/
+.quetions {
+  text-transform: capitalize;
+  padding: 3rem;
+}
+
+.quetions h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.quetions p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.passion {
+  background: url(../src/images/bg-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  background-attachment: fixed;
+}
+
+.passion h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  background-attachment: fixed;
+}
+
+/*subscribe*/
+.subscribe {
+  padding: 3rem;
+}
+
+.subscribe .group {
+  width: 30rem;
+}
+
+.subscribe h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  word-spacing: .2rem;
+}
+
+/*footer*/
+.footer {
+  background-color: #c45b5b;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 3rem;
+}
+
+.footer .text-div p {
+  padding-left: 2rem;
+}
+
+.footer .icon-div {
+  padding: 1rem;
+}
+
+.footer .icon-div span {
+  padding-left: 3rem;
+}
+
+@media (max-width: 450px) {
+  .col-first {
+    display: block;
+  }
+  .header-contex {
+    margin-top: 4rem;
+  }
+  .header-contex h1 {
+    word-spacing: 0rem;
+    font-size: 2rem;
+  }
+  .header-contex p {
+    margin-top: 1rem;
+    word-spacing: 0px;
+  }
+  .header-contex button {
+    display: block;
+  }
+  .explore .explore-context {
+    padding: 0rem;
+  }
+  .explore .explore-context h1 {
+    padding: 0;
+  }
+  .explore .explore-context p {
+    padding-top: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+  .explore-our-foods .card-section {
+    padding: 0;
+  }
+  .quetions {
+    padding: 0.5rem 0;
+    overflow-x: hidden;
+  }
+  .about-second-section .about-second-context {
+    margin-top: 0;
+  }
+  .subscribe h1 {
+    font-size: 1.5rem;
+  }
+  .subscribe .group {
+    width: auto;
+    height: auto;
+  }
+  .footer {
+    padding: 1rem;
+    text-align: center;
+  }
+  .footer .text-div p {
+    padding-left: 0rem 1rem;
+  }
+  .footer .icon-div {
+    padding: 1rem;
+  }
+  .footer .icon-div span {
+    padding-left: 0rem 1rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

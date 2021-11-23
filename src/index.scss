@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Nunito:wght@200;300;400;700;800;900&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Satisfy&family=Yuji+Mai&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.buttons{
+    width: 9rem;
+    height: 3rem;
+border-radius: 0.4rem;
+    background: rgb(196, 91, 91);
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+    margin: 0 0rem;
+}
+.buttons:hover{
+    background: #fff;
+    color: rgb(196, 91, 91);
+    border: 3px solid  rgb(196, 91, 91);
+}
+.col-first{
+    display: block;
+}
+.nav-items .nav-links {
+margin: 0 0.5rem ;
+color: #000!important;
+font-weight: 600;
+font-size: 1.2rem;
+& .nav-links:hover {
+color: rgb(196, 91, 91) !important;
+}
+}
+.brand-img{
+    height: 100%;
+    width: 100%;
+}
+/*header*/
+.main-header {
+    background: url(./images/bg-1.jpg);
+    width: 100%;
+ height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.header-contex{
+    margin-top: 5rem;
+    width: 100%;
+    & h1{
+        font-weight: 700;
+        word-spacing: .1rem;
+    }
+    & p{
+        margin-top: 2rem;
+        word-spacing: .1rem;
+    }
+    & button{
+        margin-top: 1rem ;
+        & i{
+            margin: 0 0.4rem;
+        }
+    }
+}
+/*about us*/
+.about{
+    text-transform: capitalize;
+    .about-heading{
+        color:rgb(196, 91, 91) ;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .about-img{
+        width: 100%;
+        height: 100%;
+    }
+    .about-context{
+        padding: 0.8rem ;
+        & h1{
+            font-weight: 500;
+            font-size: 2.4rem;
+        }
+        & p{
+            padding-top: 1rem;
+            font-size: 0.9rem;
+            line-height: 1.6rem;
+            letter-spacing: .04rem;
+        }
+        & button {
+            margin-top: 0.5rem;
+        }
+    }
+}
+.about-second-section{
+    .about-second-context{
+margin-top: 4rem;
+padding: 0.8rem 0 ;
+& h1{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+& p{
+    padding-top: 1.3rem;
+    font-size: 0.9rem;
+    letter-spacing: .04rem;
+    line-height: 1.6rem;
+}
+& ul li{
+    list-style-type: none;
+    letter-spacing: .02rem;
+    padding-top: .4rem;
+    & i{
+        color:rgb(196, 91, 91)  ;
+        font-weight: bolder ;
+        font-size: 1.2rem;
+    }
+}
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+/*explore*/
+.explore{
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    background-size: cover;
+    .explore-context{
+        padding: 1.5rem;
+      & h1{
+    color: rgb(196, 91, 91);
+    font-weight: 600;
+    letter-spacing: .08rem;
+    padding:0.5rem ;
+      }
+      & p{
+          padding-top: 1.3rem;
+    letter-spacing: .06rem;
+    line-height: 1.6rem;
+      }
+
+    }
+}
+/*explore our foods*/
+.explore-our-foods{
+    text-transform: capitalize;
+    .card-section-header{
+        & h1{
+            font-weight: 500;
+            padding:  0.5rem 0;
+        }
+        & p{
+            line-height: 1.2rem;
+        }
+    }
+    .card-section{
+        padding: 3rem;
+        .cards{
+            border: none;
+        Img{
+            width: 100%;
+            height: 100%;
+        border-radius: 1rem;}
+            & h5{
+             font-size: 1.1rem;
+             font-weight: 700;
+            }
+            & p{
+                font-size: 0.9rem;
+            }
+            & h2{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+/*rquetions*/
+.quetions{
+    text-transform: capitalize;
+    padding: 3rem;
+    & h4{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    & p{
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+}
+.passion{
+    background: url(../src/images/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    background-attachment: fixed;
+    & h1{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 600;
+        background-attachment: fixed;
+    }
+}
+/*subscribe*/
+.subscribe{
+    padding: 3rem;
+
+    .group{
+        width: 30rem;
+    }
+    & h1{
+        font-size: 2.3rem;
+        font-weight: 800;
+        word-spacing: .2rem;
+    }
+}
+/*footer*/
+.footer{
+    background-color: rgb(196, 91, 91) ;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 3rem ;
+    .text-div{
+        & p{
+            padding-left: 2rem;
+        }
+    }
+    .icon-div{
+        padding: 1rem;
+   & span{
+    padding-left: 3rem;
+   }
+    }
+}
+@media (max-width:450px) {
+    .col-first{
+        display: block;
+    }
+    .header-contex{
+        margin-top: 4rem;
+        & h1{
+            word-spacing: 0rem;
+            font-size: 2rem;
+        }
+        & p{
+            margin-top: 1rem;
+            word-spacing:0px;
+        }
+        & button{
+        display: block;
+        }
+    }
+
+    .explore{
+        .explore-context{
+            padding: 0rem;
+        
+        & h1{
+            padding: 0;
+        }
+        & p{
+            padding-top: 0;
+            letter-spacing: 0;
+            word-spacing: 0;
+        }
+    }
+    }
+    .explore-our-foods{
+        .card-section{
+            padding: 0;
+        }
+    }
+    .quetions{
+        padding: 0.5rem 0;
+        overflow-x: hidden;
+    }
+    .about-second-section{
+        .about-second-context{
+            margin-top: 0;
+        }}
+    .subscribe {
+        & h1{
+           font-size: 1.5rem;
+        }
+        .group{
+width: auto;
+height: auto;
+        }
+    }
+    .footer{
+        padding: 1rem ;
+        text-align: center;
+        .text-div{
+            & p{
+                padding-left: 0rem 1rem;
+            }
+        }
+        .icon-div{
+            padding:1rem ;
+       & span{
+        padding-left: 0rem 1rem;
+       }
+        }
+    }
+}
