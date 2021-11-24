@@ -16,7 +16,7 @@ const Home = () => {
         <Nav.Link   className='nav-links'   href="#home">Home</Nav.Link>
         <Nav.Link  className='nav-links'   href="#Aboutus">About Us</Nav.Link>
         <Nav.Link  className='nav-links'   href="#Explore Foods">Explore Foods</Nav.Link>
-        <Nav.Link  className='nav-links'   href="#Review">Review</Nav.Link>
+        <Nav.Link  className='nav-links'   href="#subscribe">subscribe</Nav.Link>
         <Nav.Link  className='nav-links'   href="#Faq">Faq</Nav.Link>
         <Nav.Link  className='nav-links'   href="#link"><button  className='buttons'> 1200 345 123</button></Nav.Link>
       </Nav>

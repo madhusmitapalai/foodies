@@ -4,14 +4,13 @@ import Header from './components/Header';
 import About from './components/About';
 import Explore from './components/Explore';
 import ExploreFoods from './components/ExploreFoods';
-import Review from './components/Review';
 import Quetions from './components/Quetions';
 import Passion from './components/Passion';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
 const App = () => {
     return (
-        <div>
+        <React.Fragment>
         <Header/>
         <About/>
         <Explore/>
@@ -20,7 +19,7 @@ const App = () => {
          <Passion/>
          <Subscribe/>
          <Footer/>
-        </div>
+        </React.Fragment>
     )
 }
 

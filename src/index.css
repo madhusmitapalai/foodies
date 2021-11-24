@@ -4,7 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .buttons {
@@ -16,6 +16,7 @@
   border: 2px solid #fff;
   font-weight: 700;
   margin: 0 0rem;
+  text-transform: capitalize;
 }
 
 .buttons:hover {
@@ -63,12 +64,12 @@
 
 .header-contex h1 {
   font-weight: 700;
-  word-spacing: .1rem;
+  word-spacing: 0.1rem;
 }
 
 .header-contex p {
   margin-top: 2rem;
-  word-spacing: .1rem;
+  word-spacing: 0.1rem;
 }
 
 .header-contex button {
@@ -82,6 +83,7 @@
 /*about us*/
 .about {
   text-transform: capitalize;
+  padding: 3rem;
 }
 
 .about .about-heading {
@@ -108,7 +110,7 @@
   padding-top: 1rem;
   font-size: 0.9rem;
   line-height: 1.6rem;
-  letter-spacing: .04rem;
+  letter-spacing: 0.04rem;
 }
 
 .about .about-context button {
@@ -129,14 +131,14 @@
 .about-second-section .about-second-context p {
   padding-top: 1.3rem;
   font-size: 0.9rem;
-  letter-spacing: .04rem;
+  letter-spacing: 0.04rem;
   line-height: 1.6rem;
 }
 
 .about-second-section .about-second-context ul li {
   list-style-type: none;
-  letter-spacing: .02rem;
-  padding-top: .4rem;
+  letter-spacing: 0.02rem;
+  padding-top: 0.4rem;
 }
 
 .about-second-section .about-second-context ul li i {
@@ -168,13 +170,13 @@
 .explore .explore-context h1 {
   color: #c45b5b;
   font-weight: 600;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
   padding: 0.5rem;
 }
 
 .explore .explore-context p {
   padding-top: 1.3rem;
-  letter-spacing: .06rem;
+  letter-spacing: 0.06rem;
   line-height: 1.6rem;
 }
 
@@ -206,16 +208,18 @@
   border-radius: 1rem;
 }
 
-.explore-our-foods .card-section .cards h5 {
+.explore-our-foods .card-section .cards .h5 {
   font-size: 1.1rem;
   font-weight: 700;
+  display: block;
 }
 
-.explore-our-foods .card-section .cards p {
+.explore-our-foods .card-section .cards .p {
   font-size: 0.9rem;
+  display: block;
 }
 
-.explore-our-foods .card-section .cards h2 {
+.explore-our-foods .card-section .cards .h2 {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -264,7 +268,11 @@
 .subscribe h1 {
   font-size: 2.3rem;
   font-weight: 800;
-  word-spacing: .2rem;
+  word-spacing: 0.2rem;
+}
+
+.subscribe p {
+  padding: 1rem 0;
 }
 
 /*footer*/
@@ -285,6 +293,67 @@
 
 .footer .icon-div span {
   padding-left: 3rem;
+}
+
+@media (max-width: 767px) {
+  .col-first {
+    display: block;
+  }
+  .header-contex {
+    margin-top: 4rem;
+  }
+  .header-contex h1 {
+    word-spacing: 0rem;
+    font-size: 2rem;
+  }
+  .header-contex p {
+    margin-top: 1rem;
+    word-spacing: 0px;
+  }
+  .header-contex button {
+    display: block;
+  }
+  .explore .explore-context {
+    padding: 0rem;
+  }
+  .explore .explore-context h1 {
+    padding: 0;
+  }
+  .explore .explore-context p {
+    padding-top: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+  .explore-our-foods .card-section {
+    padding: 0;
+  }
+  .quetions {
+    padding: 0.5rem 0;
+    overflow-x: hidden;
+  }
+  .about-second-section .about-second-context {
+    margin-top: 0;
+  }
+  .subscribe h1 {
+    font-size: 1.5rem;
+  }
+  .subscribe .group {
+    width: auto;
+    height: auto;
+  }
+  .footer {
+    padding: 1rem;
+    text-align: center;
+  }
+  .footer .text-div p {
+    padding-left: 0rem 1rem;
+  }
+  .footer .icon-div {
+    padding: 1rem;
+  }
+  .footer .icon-div span {
+    padding-left: 0rem 1rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -328,6 +397,9 @@
   }
   .subscribe h1 {
     font-size: 1.5rem;
+  }
+  .subscribe p {
+    padding: 0;
   }
   .subscribe .group {
     width: auto;

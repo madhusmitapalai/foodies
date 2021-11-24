@@ -8,7 +8,7 @@ import photo3 from '../images/img-5.jpg'
 const ExploreFoods = () => {
     return (
         <div>
-            <Container className="p-4 explore-our-foods">
+            <Container fluid className="p-4 explore-our-foods">
                 <div className='card-section-header text-center'>
                     <h1>explore our foods</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -22,9 +22,9 @@ const ExploreFoods = () => {
                    <Card.Img variant="top" src={photo1} />
                         <Card.Body>
                          <Card.Text>
-                         <h5>rainbow vegetable sandwich</h5>
-                         <p>time  15 -20 minutes | serves 1</p>
-                         <h2>$10.5  </h2>
+                         <span className='h5'>rainbow vegetable sandwich</span>
+                         <span className='p'>time  15 -20 minutes | serves 1</span>
+                         <span className='h2'>$10.5  </span>
                          </Card.Text>
                             <button className='buttons'>order now</button>
                        </Card.Body>
@@ -35,9 +35,9 @@ const ExploreFoods = () => {
                    <Card.Img variant="top" src={photo2} />
                         <Card.Body>
                          <Card.Text>
-                         <h5>vegetable burger</h5>
-                         <p>time  15 -20 minutes | serves 1</p>
-                         <h2>$15  </h2>
+                         <span className='h5'>vegetable burger</span>
+                         <span className='p'>time  15 -20 minutes | serves 1</span>
+                         <span className='h2'>$15  </span>
                          </Card.Text>
                             <button className='buttons'>order now</button>
                        </Card.Body>
@@ -48,9 +48,9 @@ const ExploreFoods = () => {
                    <Card.Img variant="top" src={photo3} />
                         <Card.Body>
                          <Card.Text>
-                         <h5>rainbow with fruit sandwich</h5>
-                         <p>time  15 -20 minutes | serves 1</p>
-                         <h2>$14.5  </h2>
+                         <span className='h5'>rainbow with fruit sandwich</span>
+                         <span className='p'>time  15 -20 minutes | serves 1</span>
+                         <span className='h2'>$14.5  </span>
                          </Card.Text>
                             <button className='buttons'>order now</button>
                        </Card.Body>
